@@ -1,0 +1,157 @@
+:root {
+    --CORNFLOWER: #E7E9FC;
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --SLATE: #434455;
+    --WHITE: #FFFFFF;
+    --CLOUD: #F4F4FD;
+    --OCEAN: #404BBF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--NAVY-BLUE);
+    background-color: var(--WHITE);
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+.link:hover {
+    color: var(--OCEAN);
+}
+
+.logo-header {
+    font-family: Raleway;
+    color: var(--NAVY-BLUE);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.text-blue {
+    color: var(--IRIS);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.menu {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+.address {
+    color: var(--SLATE);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    font-style: normal;
+}
+
+.heading-first {
+    color: var(--WHITE);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+}
+
+.heading-second {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.heading-third {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+
+.paragraf {
+    color: var(--SLATE);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+.our-team {
+    background-color: var(--CLOUD);
+}
+
+.main-view {
+    background-color: var(--NAVY-BLUE);
+}
+
+.footer {
+    background-color: var(--NAVY-BLUE);
+    color: var(--CLOUD);
+}
+
+.button-add {
+    background-color: var(--CLOUD);
+    color: var(--IRIS);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+
+.button-add:hover {
+    color: var(--OCEAN);
+}
+
+.button-main {
+    background-color: var(--IRIS);
+    color: var(--WHITE);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+
+.button-main:hover,
+.button-main:focus {
+    background-color: var(--OCEAN);
+}
+
+.logo-footer {
+    font-family: Raleway;
+    color: var(--CLOUD);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.text-footer {
+    color: var(--CLOUD);
+}
