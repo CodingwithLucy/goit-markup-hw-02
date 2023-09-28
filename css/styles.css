@@ -19,7 +19,7 @@ body {
     color: var(--NAVY-BLUE);
     font-size: 16px;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -56,27 +56,39 @@ body {
 }
 
 .address {
+    font-style: normal;
+}
+
+.address-link {
+    color: var(--SLATE);
+    text-decoration: none;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--OCEAN);
 }
 
 .heading-first {
     color: var(--WHITE);
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
 .heading-second {
     color: var(--NAVY-BLUE);
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
