@@ -120,13 +120,6 @@ body {
     background-color: var(--NAVY-BLUE);
 }
 
-.footer {
-    background-color: var(--NAVY-BLUE);
-    color: var(--CLOUD);
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
 .button-add {
     font-family: 'Roboto', sans-serif;
     background-color: var(--CLOUD);
@@ -158,6 +151,13 @@ body {
 .button-main:hover,
 .button-main:focus {
     background-color: var(--OCEAN);
+}
+
+.footer {
+    background-color: var(--NAVY-BLUE);
+    color: var(--CLOUD);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .studio-footer {
