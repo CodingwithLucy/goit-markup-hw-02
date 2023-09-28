@@ -140,7 +140,8 @@ body {
 
 .button-add:hover,
 .button-add:focus {
-    color: var(--OCEAN);
+    color: var(--WHITE);
+    background-color: var(--OCEAN);
 }
 
 .button-main {
